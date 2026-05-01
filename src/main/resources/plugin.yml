@@ -1,0 +1,15 @@
+name: xgxhcurseremove
+version: '1.0.0'
+main: com.example.curseremoval.CurseRemoval
+api-version: '1.21'
+description: 允许玩家使用命令脱掉带有绑定诅咒的装备
+author: 雪糕小豪
+commands:
+  bdzz:
+    description: 脱掉所有带有绑定诅咒的装备
+    usage: /bdzz
+    permission: xgxhcurseremove.use
+permissions:
+  xgxhcurseremove.use:
+    description: 允许使用脱掉绑定诅咒装备命令
+    default: true
